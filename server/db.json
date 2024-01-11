@@ -1,0 +1,49 @@
+{
+  "students": [
+    {
+      "name": "Vincent",
+      "age": 26,
+      "phone": "333-444-555",
+      "email": "vincent@gmail.com",
+      "education": "master",
+      "graduationschool": "Paris I",
+      "profession": "commercial",
+      "profile": "brillant",
+      "id": 1
+    },
+    {
+      "name": "Marie",
+      "age": 34,
+      "phone": "123-345-678",
+      "email": "marie@hotmail.com",
+      "education": "licence",
+      "graduationschool": "Paris I",
+      "profession": "fleuriste",
+      "profile": "gentille",
+      "id": 3
+    },
+    {
+      "name": "Bruno",
+      "age": 42,
+      "phone": "131-654-889",
+      "email": "bruno@yahoo.com",
+      "education": "master",
+      "graduationschool": "Paris I",
+      "profession": "developpeur",
+      "profile": "professionnel",
+      "id": 2
+    }
+  ],
+  "classes": [
+    {
+      "id": 1,
+      "name": "class technique",
+      "description": "c'est une groupe dynamique"
+    },
+    {
+      "id": 2,
+      "name": "class normale",
+      "description": "c'est aussi une groupe dynamique"
+    }
+  ]
+}
