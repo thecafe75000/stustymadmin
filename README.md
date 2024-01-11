@@ -1,8 +1,8 @@
 ### Ceci est un exercice pour un système de gestion des étudiants construit avec React, l'exercice vise à se familiariser avec react-router
 
-### This is an exercise for a student management system built with React, the exercise is intended to familiarize with react-route
+### This is an exercise for a student management system built with React, the exercise is intended to familiarize with react-router
 
-### 这是一个使用 React 构建的学生管理系统的练习，目的是熟悉 react-router
+#### 这是一个使用 React 构建的学生管理系统的练习，目的是熟悉 react-router
 
 Info： 
 
