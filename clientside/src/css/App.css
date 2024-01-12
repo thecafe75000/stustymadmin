@@ -14,10 +14,12 @@ a{
 
 .navigation:hover{
   color:#fff;
+  text-decoration: none;
 }
 
-.active {
+a.active {
  color: #fff;
+ text-decoration: none;
 }
 
 .table{

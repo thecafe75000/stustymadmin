@@ -1,7 +1,7 @@
 import { Navigate, NavLink, Routes, Route } from 'react-router-dom'
 import Home from './components/Home'
 import About from './components/About'
-import Add from './components/Add'
+import AddOrEdit from './components/AddOrEdit'
 import "./css/App.css"
 
 function App() {
@@ -43,7 +43,7 @@ function App() {
           {/* 在Route组件中书写对应的路由，以及路由所对应的组件 */}
           <Route path='/home' element={<Home />} />
           <Route path='/about' element={<About />} />
-          <Route path='/add' element={<Add />} />
+          <Route path='/add' element={<AddOrEdit />} />
           {/* 根路径显示Home组件, 使用Navigate组件进行重定向*/}
           <Route path='/' element={<Navigate replace to='/home' />} />
         </Routes>
