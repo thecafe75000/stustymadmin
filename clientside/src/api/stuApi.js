@@ -23,3 +23,34 @@ export function addStuApi(data) {
     data
   })
 }
+
+/**
+ * 根据学生id获取学生信息详情
+ */
+export function getStuByIdApi(id) {
+  return request({
+    url: `/students/${id}`,
+    method: "GET"
+  })
+}
+
+/**
+ * 根据学生id删除学生信息
+ */
+export function deleteStuByIdApi(id) {
+  return request({
+    url: `/students/${id}`,
+    method: 'DELETE'
+  })
+}
+
+/**
+ * 根据学生id编辑修改学生信息
+ */
+export function editStuByIdApi(id,data) {
+  return request({
+    url: `/students/${id}`,
+    method: 'PATCH',
+    data
+  })
+}

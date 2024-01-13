@@ -1,12 +1,13 @@
 import React, { useEffect, useState } from 'react'
-import { useLocation } from 'react-router-dom'
+import { useLocation, NavLink } from 'react-router-dom'
 import { getStuListApi } from '../api/stuApi'
 import Alert from './Alert'
 
 function Home() {
-  const[stuList,setStulist]=useState([])
-  const [searchItem, setSearchitem] = useState([])
-  const[message,setMessage] = useState(null)
+  const[stuList,setStulist]=useState([]) //? 存储所有的数据
+  const [searchItem, setSearchitem] = useState("") //? 存储用户输入的搜索信息
+  const [message, setMessage] = useState(null)
+  const [searchList, setSearchlist]=useState([]) //? 存储搜索后的数据
 
   const location = useLocation()
 
@@ -26,22 +27,29 @@ function Home() {
     }
   },[location])
 
-  const changeHandle = () => {
-    
+  const changeHandle = (e) => {
+    setSearchitem(e.target.value)
+    const arr = stuList.filter((item) => {
+      return item.name.match(e.target.value)
+    })
+    setSearchlist(arr)
   }
 
-  const trs = stuList.map((item, index) => {
+  //? list 就是最终要显示的列表, list根据searchItem是否有值
+  const list = searchItem ? searchList : stuList
+
+  const trs = list.map((item, index) => {
     return (
       <tr key={index} >
         <td>{item.name}</td>
         <td>{item.age}</td>
         <td>{item.phone}</td>
-        <td>details</td>
+        <td><NavLink to={`/detail/${item.id}`}>Details</NavLink></td>
       </tr>
     )
   })
 
-  const showAlert = alert ? <Alert {...message} /> : null
+  const showAlert = message ? <Alert {...message} /> : null
 
   return (
     <div>
