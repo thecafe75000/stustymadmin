@@ -5,7 +5,7 @@ import Alert from './Alert'
 
 function Home() {
   const[stuList,setStulist]=useState([]) //? 存储所有的数据
-  const [searchItem, setSearchitem] = useState("") //? 存储用户输入的搜索信息
+  const [searchItem, setSearchitem] = useState(" ") //? 存储用户输入的搜索信息
   const [message, setMessage] = useState(null)
   const [searchList, setSearchlist]=useState([]) //? 存储搜索后的数据
 
