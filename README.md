@@ -86,6 +86,12 @@ PS: Comment utiliser json-server ?
    "scripts": {
        "json:server":"json-server --watch db.json"
      }
+
+    Or:
+
+    "scripts": {
+       "server":"json-server --watch db.json"
+     }
    ```
 
 5. Démarrer le serveur 
@@ -94,4 +100,8 @@ PS: Comment utiliser json-server ?
    
    ```shell
    npm run json:server
+
+   Or:
+
+   npm run server
    ```
