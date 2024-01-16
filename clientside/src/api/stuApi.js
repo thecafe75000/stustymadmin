@@ -3,7 +3,7 @@
 import request from './request'
 
 /**
- * 获取学生列表
+ * 获取整个学生列表
  * @returns 
  */
 export function getStuListApi() {

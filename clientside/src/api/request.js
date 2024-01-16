@@ -1,4 +1,4 @@
-/* 该文件是封装 axios */
+/* 该文件是 axios 的二次封装 */
 
 import axios from 'axios'
 

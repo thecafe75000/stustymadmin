@@ -39,3 +39,7 @@ tr, th{
   top: 2px;
   margin-right: 10px;
 }
+
+a.navigation.active{
+ color: red;
+}

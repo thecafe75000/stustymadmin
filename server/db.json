@@ -34,17 +34,6 @@
       "id": 6
     },
     {
-      "name": "Flavie",
-      "age": "22",
-      "phone": "65123486",
-      "email": "flavie@123.com",
-      "education": "Bachelor",
-      "graduationschool": "Canton",
-      "profession": "student",
-      "profile": "lovely",
-      "id": 7
-    },
-    {
       "name": "Lucie",
       "age": "24",
       "phone": "1984561323",
@@ -120,6 +109,17 @@
       "profession": "salesman",
       "profile": "excellent",
       "id": 14
+    },
+    {
+      "name": "Sabrina",
+      "age": "27",
+      "phone": "65456123",
+      "email": "sabrina@hotmail.com",
+      "education": "Bachelor",
+      "graduationschool": "Richy",
+      "profession": "worker",
+      "profile": "professionnal",
+      "id": 15
     }
   ],
   "classes": [
