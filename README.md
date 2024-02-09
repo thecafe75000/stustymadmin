@@ -105,3 +105,7 @@ PS: Comment utiliser json-server ?
 
    npm run server
    ```
+PS:
+- 如果某个组件是通过切换路由来进行展示的，那么该组件就是路由组件
+- 如果某个组件原本就存在，那么该组件就是一般/普通组件
+- 约定俗成：在开发项目里，通常在名为components的文件夹里放置一般/普通组件, 路由组件统一放在名为pages或views的文件夹里
