@@ -109,3 +109,8 @@ PS:
 - 如果某个组件是通过切换路由来进行展示的，那么该组件就是路由组件
 - 如果某个组件原本就存在，那么该组件就是一般/普通组件
 - 约定俗成：在开发项目里，通常在名为components的文件夹里放置一般/普通组件, 路由组件统一放在名为pages或views的文件夹里
+- 该练习是网页端，不用安装整个React Router, 只需使用 react-router-dom (包括`<BrowserRouter>`, `<HashRouter>` 和 `<Link>`)
+
+```shell
+ npm install react-router-dom 
+```
