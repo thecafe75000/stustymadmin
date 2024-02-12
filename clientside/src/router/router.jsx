@@ -28,7 +28,7 @@ function Router() {
         },
         {
           path: '',
-          element: <Navigate replace to='email' />
+          element: <Navigate to='email' />
         }
       ]
     },
@@ -46,7 +46,7 @@ function Router() {
     },
     {
       path: '/',
-      element: <Navigate replace to='/home' />
+      element: <Navigate to='/home' />
     }
   ])
 
