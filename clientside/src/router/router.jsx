@@ -7,7 +7,9 @@ import Detail from '../components/Detail'
 import Email from '../components/Email'
 import Tel from '../components/Tel'
 
-
+//? 钩子函数只能使用在函数组件中，包括内置函数组件和自定义函数组件
+//? useRoutes钩子函数用于根据路由表,动态创建Routes和Route
+//? 这里的function Router 是一个自定义函数组件
 function Router() {
   return useRoutes([
     {
